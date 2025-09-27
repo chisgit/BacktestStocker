@@ -1,10 +1,16 @@
-# Ignore environment files
+# Environment variables
 .env
 
-# Ignore data and output files
-data/
-out/
-
-# Ignore Python cache
+# Python cache
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data files
+data/
